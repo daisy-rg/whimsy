@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(closet.png);
+    background-image: url(./images/closet.png);
     background-size: cover; 
     background-position:center;
     padding: 10px 10%; overflow: hidden ; 

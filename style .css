@@ -6,7 +6,7 @@
 }
 .hero{
     width: 100%; min-height:100vh;
-    background-image: url(back\ image.png);
+    background-image: url(./images/back\ image.png);
     background-size: cover; 
     background-position:center;
     padding: 10px 10%; overflow: hidden ; 
