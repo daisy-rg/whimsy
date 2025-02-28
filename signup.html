@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background:url(./images/closet.png);
+            background-size: cover; 
+    background-position:center;
+    padding: 10px 10%; overflow: hidden ; 
+    position: relative;
+
+        }
+        .signup-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .signup-box {
+            background:transparent;
+            padding: 20px;
+            border-radius: 20px;
+            text-align: center;
+            width: 300px;
+        }
+        .input-group {
+            margin-bottom: 15px;
+            text-align: left; 
+            background:transparent;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #110101;
+            border-radius: 20px;
+        }
+        .signup-btn {
+            width: 100%;
+            padding: 10px;
+            background: rgb(134, 244, 151);
+            color:black;
+            border: none;
+            border-radius: 20px; border-top-right-radius:0;
+            cursor: pointer;
+        }
+        .signup-btn:hover {
+            border-top-right-radius:20px;
+            text-decoration: underline;
+        }
+        #regist p a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <div class="signup-box">
+            <h2>Sign Up</h2>
+            <form action="#" method="POST">
+                <div class="input-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="signup-btn">Sign Up</button>
+                <div id="regist">
+                <p>Already have an account? <a href="login.htm">Login</a></p>
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
